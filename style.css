@@ -1,0 +1,1278 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+
+
+
+}
+
+.page-one {
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.nav {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    padding-top: 2vmax;
+
+}
+
+.cosmos-one {
+    font: 400 1.3vmax "montserrat";
+}
+
+.menu-one {
+    font: 500 0.8vmax "montserrat";
+    word-spacing: 2vmax;
+
+}
+
+.getatom-one {
+
+    font: 500 0.9vmax "montserrat";
+    /* align-items: center; */
+    /* text-align: center; */
+    display: flex;
+    /* background-color: aqua; */
+    /* justify-content: center; */
+}
+.getatom-one img{
+    width: 2.2vh;
+    height: 2.2vh;
+    
+}
+
+.arrowgetatom-one {}
+
+.one-nav-center {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font: 900 2vmax "montserrat";
+    color: white;
+    text-align: center;
+}
+
+.peracenter-one {
+    font: 500 1.4vmax "montserrat";
+
+}
+
+.maincenter-one {
+    font: 700 7vmax "montserrat";
+    letter-spacing: -2px;
+}
+
+
+.peracenterl-one {
+    font: 400 1.5vmax "montserrat";
+
+}
+
+.page-two {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.two-nav {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.two-nav-one {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    font: 400 1.2vmax "montserrat";
+
+
+
+}
+
+.two-pera {}
+
+.two-mainheading {
+    font: 700 4vmax "montserrat";
+    letter-spacing: -2px;
+    margin: 2vmax 0vmax 2vmax 0vmax;
+
+}
+
+.two-pera-last {
+    font: 400 1.1vmax "montserrat";
+
+}
+
+.two-nav-two {
+    /* width: 50%;height: 100vh; */
+    display: flex;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    font: 500 1.5vmax "montserrat";
+
+}
+
+.two-num {
+    font: 600 6vmax "montserrat";
+
+}
+
+.two-p1 {
+    font: 400 1vmax "montserrat";
+
+}
+
+
+.two-p2 {
+    font: 400 1vmax "montserrat";
+}
+
+.two-numb {
+    font: 600 6vmax "montserrat";
+    margin-top: 6vmax;
+}
+
+.two-button {
+    width: 25%;
+    height: 9vh;
+    border-radius: 0.8vmax;
+    font: 400 1.2vmax "montserrat";
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    flex-direction: row;
+
+}
+
+.two-arrow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+
+
+}
+
+.two-button-main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vmax;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.explore {
+    width: 50%;
+    margin-left: 6vmax;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.two-arrow2 {
+    width: 7%;
+    height: 4%;
+    margin-left: 2vmax;
+    /* position: relative;display: flex; */
+
+}
+
+/* ******************************************************************** */
+
+.page-three {
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.image-three {
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+
+}
+
+.three-nav-one {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font: 900 2vmax "montserrat";
+    justify-content: center;
+    align-items: center;
+    margin-left: 22vmax;
+
+}
+
+.three-p {
+    font: 400 1.2vmax "montserrat";
+    
+}
+
+.three-h {
+    font: 500 5vmax "montserrat";
+    margin: 2vmax 00vmax 2vmax 0vmax;
+}
+
+.three-p2 {
+    font: 400 1.2vmax "montserrat";
+    margin-left: 15vmax;
+}
+
+.three-nav-main {
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-items: end;
+    color: rgb(255, 255, 255);
+    font: 400 1vmax "montserrat";
+    margin-left: 20vmax;
+    justify-content: space-evenly;
+
+}
+
+.three-nav-main1 {}
+
+.three-h1 {
+    font: 600 1.3vmax "montserrat";
+    margin: 9vmax 2vmax 2vmax 00vmax;
+}
+
+.three-p3 {
+    font: 400 1vmax "montserrat";
+}
+
+.three-h {}
+
+.three-nav-main2 {}
+
+.three-nav-button {
+    width: 60%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -10%;
+    margin-right: 35%;
+
+}
+
+.three-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ********************************************************************************* */
+.page-four {
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+    /* position: absolute; */
+    display: flex;
+    overflow: hidden;
+    /* margin-top: 95vmax; */
+    background-color: black;
+
+}
+
+.image-four {
+    width: 100%;
+    height: 160vh;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+
+}
+
+.four-nav {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.four-h {
+    font: 600 4vmax "montserrat";
+}
+
+.four-p {
+    font: 400 1.8vmax "montserrat";
+    margin: 3vmax 00vmax 5vmax 00vmax;
+
+}
+
+.four-button {
+    width: 38%;
+    height: 8vh;
+    border-radius: 1vmax;
+    font-size: 1.2vmax;
+    
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+.four-nav2 {
+    width: 100%;
+    height: 185vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: rgb(254, 255, 255);
+    justify-content: end;
+    margin-left: 20%;
+
+
+}
+
+.four-h2 {
+    width: 100%;
+    font: 700 3.5vmax "montserrat";
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+
+
+}
+
+.four-explore {
+    font: 500 1vmax "montserrat";
+    justify-items: center;
+
+
+}
+
+.four-arrow2 {
+    width: 2vh;
+    height: 2vh;
+    margin-top: 0vmax;
+    text-align: center;
+    margin-top: 3vmax;
+    margin-bottom: -0.2vmax;
+}
+
+/* ********************************************************************* */
+
+.page-five {
+    width: 100%;
+    height: 100vh;
+    background-color: #010202;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.five-nav-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #010202;
+    align-items: flex-start;
+    overflow: hidden;
+
+}
+
+.five-box1 {
+    width: 27%;
+    height: 90vh;
+    background-color: #171718;
+    margin-top: 2vmax;
+    border-radius: 2vmax;
+
+
+}
+
+.five-box2 {
+    width: 40%;
+    height: 42vh;
+    background-color: #171718;
+    margin-top: 2vmax;
+    margin-left: 2vmax;
+    border-radius: 2vmax;
+
+}
+
+.five-1 {
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2vmax;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.five-p1 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-h1 {
+    font: 600 2.8vmax "montserrat";
+}
+
+.five-p2 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-image1 {
+    width: 20%;
+    height: 36vh;
+    margin-left: -8vmax;
+    overflow: hidden;
+
+}
+
+.five-2 {
+    width: 100%;
+    height: 42vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2vmax;
+    color: rgb(255, 255, 255);
+
+}
+
+.five-p3 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-h2 {
+    font: 600 2.8vmax "montserrat";
+}
+
+.five-p4 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-image2 {
+    width: 38%;
+    height: 32vh;
+    margin-left: 25vmax;
+}
+
+
+
+.five-nav-3 {
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    margin: 25.2vmax 00vmax 00vmax 44.5vmax;
+
+}
+
+.five-box3 {
+    width: 31%;
+    height: 42vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+}
+
+.five-box4 {
+    width: 31%;
+    height: 42vh;
+    background-color: #171718;
+    margin-left: 2.5vmax;
+    border-radius: 2vmax;
+}
+
+.five-3 {
+    width: 100%;
+    height: 42vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2vmax;
+    color: rgb(255, 255, 255);
+
+}
+
+.five-p5 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-h3 {
+    font: 600 2vmax "montserrat";
+}
+
+.five-p6 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-4 {
+    width: 100%;
+    height: 42vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2vmax;
+    color: rgb(255, 255, 255);
+
+}
+
+.five-p7 {
+    font: 500 1vmax "montserrat";
+}
+
+.five-h4 {
+    font: 600 2vmax "montserrat";
+}
+
+.five-p8 {
+    font: 500 1vmax "montserrat";
+}
+
+
+/* ******************************************************************** */
+
+
+.page-six {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #010202;
+
+}
+
+.six-image {
+    width: 100%;
+    height: 135vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.six-nav1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: rgb(254, 255, 255);
+    justify-content: center;
+    margin-left: 9vmax;
+
+}
+
+.six-1 {
+    font: 500 1vmax "montserrat";
+}
+
+.six-2 {
+    margin-top: 5vmax;
+    font: 700 4.2vmax "montserrat";
+}
+
+.six-nav2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    align-items: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+.six-3 {
+    font: 400 1vmax "montserrat";
+    margin-bottom: -6vmax;
+
+}
+
+.six-4 {
+    font: 600 1.8vmax "montserrat";
+    margin-left: -10vmax;
+    margin-bottom: -4vmax;
+}
+
+.six-num1 {
+    font: 700 7vmax "montserrat";
+    margin-bottom: -5vmax;
+
+}
+
+.six-nav3 {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    align-items: flex-end;
+    justify-content: end;
+    justify-content: space-around;
+    font: 700 7vmax "montserrat";
+
+}
+
+.six-num2 {
+    font: 700 7vmax "montserrat";
+    margin-bottom: 1vmax;
+    /* margin-left: ; */
+
+}
+
+/* ******************************************************************** */
+
+.page-seven {
+    width: 100%;
+    height: 185vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #010202; */
+    background-color: #010202;
+
+}
+
+.seven-image {
+    width: 80%;
+    height: 100vh;
+    /* background-position: center; */
+    /* background-size: cover; */
+
+
+}
+
+.seven-nav1 {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-items: flex-end;
+    justify-content: center;
+    text-align: start;
+
+}
+
+.seven-h1 {
+    font: 700 4vmax "montserrat";
+}
+
+.seven-p1 {
+    font: 400 1.2vmax "montserrat";
+    margin-top: 3vmax;
+    margin-right: 9vmax;
+    line-height: 2.2vmax;
+}
+
+.seven-nav2 {
+    width: 140%;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+
+.seven-h2 {
+    font: 700 1.5vmax "montserrat";
+}
+
+.seven-p2 {
+    font: 400 1vmax "montserrat";
+    margin-top: 3vmax;
+    margin-right: 5vmax;
+
+}
+
+.seven-box {
+    width: 100%;
+    height: 164vh;
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+.seven-box1 {
+    width: 22%;
+    height: 75vh;
+    background-color: #171718;
+    margin-top: 2vmax;
+    border-radius: 2vmax;
+    margin-right: 2vmax;
+    margin-bottom: -10vmax;
+    z-index: 9999999;
+
+}
+
+.seven-box2 {
+    width: 22%;
+    height: 75vh;
+    background-color: #171718;
+    margin-top: 2vmax;
+    border-radius: 2vmax;
+    margin-right: 4vmax;
+
+}
+
+.seven-box11 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    margin-left: 2vmax;
+
+}
+
+.seven-box1-p1 {
+    font: 400 1.2vmax "montserrat";
+}
+
+.seven-box1-img1 {
+    width: 22%;
+    height: 32vh;
+}
+
+.seven-box1-h1 {
+    font: 500 2.2vmax "montserrat";
+
+}
+
+.seven-b1 {
+    font: 400 1.2vmax "montserrat";
+    color: aliceblue;
+
+}
+
+.seven-arrow1 {
+    height: 2.5vh;
+    margin-bottom: -0.4vmax;
+
+}
+
+.seven-box22 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    margin-left: 2vmax;
+
+}
+
+/* ******************************************************************** */
+
+.page-eight {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #010202;
+
+
+}
+
+.eight-image {
+    width: 70%;
+    height: 70%;
+
+
+}
+
+.eight-1 {
+    width: 50%;
+    font: 700 4.5vmax "montserrat";
+    color: white;
+    margin-left: -35vmax;
+    margin-top: 10vmax;
+}
+
+.eight-box {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -60vmax;
+    margin-top: 30vmax;
+    align-items: flex-end;
+
+
+
+}
+
+.eight-box1 {
+    width: 23%;
+    height: 50vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 15vmax;
+
+}
+
+.eight-box2 {
+    width: 23%;
+    height: 50vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 5vmax;
+
+}
+
+.eight-box3 {
+    width: 23%;
+    height: 50vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 5vmax;
+    margin-left: -5vmax;
+}
+
+.eight-p1 {
+    font: 400 1vmax "montserrat";
+    margin-left: 1vmax;
+
+}
+
+.eight-h1 {
+    font: 600 1.8vmax "montserrat";
+    margin-left: 1vmax;
+
+}
+
+.eight-p2 {
+    font: 300 1vmax "montserrat";
+    margin-left: 1vmax;
+}
+
+/* ******************************************************************** */
+.nine-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #010202; */
+    background-color: #010202;
+
+}
+
+.nine-nav1 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: space-around;
+}
+
+.nine-div1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nine-h1 {
+    font: 600 4.5vmax"montserrat";
+    line-height: 5vmax;
+}
+
+.nine-p1 {
+    font: 400 1.5vmax"montserrat";
+
+
+}
+
+.nine-p2 {
+    font: 500 1.5vmax"montserrat";
+
+
+}
+
+.nine-h2 {
+    font: 500 1.4vmax"montserrat";
+    line-height: 5vmax;
+    margin-top: 1vmax;
+}
+
+.nine-p3 {
+    font: 400 0.8vmax"montserrat";
+    margin-bottom: 2vmax;
+    color: gray;
+
+
+}
+
+.nine-div2 {
+    width: 2%;
+    height: 105%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2vmax;
+
+
+}
+
+.nine-img1 {
+    width: 100%;
+    height: 5%;
+    line-height: 20vmax;
+
+}
+
+.ten-page {
+    width: 100%;
+    height: 145vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #010202;
+
+
+}
+
+.ten-image {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.ten-1 {
+    width: 100%;
+    font: 700 4.5vmax "montserrat";
+    color: white;
+    margin-left: -65vmax;
+    margin-top: 10vmax;
+}
+
+.ten-p11 {
+    width: 100%;
+    font: 400 1.2vmax "montserrat";
+    color: white;
+    margin-left: -90vmax;
+    margin-top: 18vmax;
+
+}
+
+.ten-box {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -120vmax;
+    margin-top: 40vmax;
+    align-items: flex-end;
+
+
+
+}
+
+.ten-box1 {
+    width: 23%;
+    height: 60vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10vmax;
+
+}
+
+.ten-box2 {
+    width: 23%;
+    height: 60vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 12vmax;
+
+}
+
+.ten-box3 {
+    width: 23%;
+    height: 60vh;
+    background-color: #171718;
+    border-radius: 2vmax;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 5vmax;
+    margin-left: -12vmax;
+}
+
+.ten-p1 {
+    font: 400 1vmax "montserrat";
+    margin-left: 1vmax;
+
+}
+
+.ten-h1 {
+    font: 600 1.8vmax "montserrat";
+    margin-left: 1vmax;
+
+}
+
+.ten-p2 {
+    font: 300 0.9vmax "montserrat";
+    margin-left: 1vmax;
+    color: gray;
+}
+
+.ten-img2 {
+    width: 120%;
+    height: 50%;
+    margin-left: -5vmax;
+}
+
+/* ********************************************** */
+
+
+.last-page {
+    width: 100%;
+    height: 140vh;
+    background-color: #010202;
+}
+
+.last-nav1 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.l-h1 {
+    font: 400 1.8vmax "montserrat";
+
+}
+
+.l-p1 {
+    font: 300 1vmax "montserrat";
+    color: gray;
+}
+
+.button-last {
+    width: 95%;
+    height: 9vh;
+    font: 400 1.5vmax "montserrat";
+    background-color: #323233;
+    border-radius: 0.8vmax;
+    border: none;
+    text-align: center;
+    color: white;
+
+}
+
+.last-img2 {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-left: -2.5vmax;
+    margin-bottom: -0.1vmax;
+}
+
+.l-line {
+    width: 80%;
+    height: 0.01vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 6vmax;
+    margin-left: 10vmax;
+}
+
+.l-menu {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: rgb(156, 158, 158);
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10vmax;
+    text-align: start;
+
+
+}
+
+.l-h2 {
+    font: 500 1.21vmax "montserrat";
+    margin-left: -1vmax;
+    word-spacing: 10.1vmax;
+
+
+}
+
+.l-h3 , .l-h4 {
+    font: 300 1.3vmax "montserrat";
+    line-height: 2.5vmax;
+    margin-top: 1vmax;
+    align-items: flex-start;
+
+}
+
+.l-line2 {
+    width: 80%;
+    height: .01vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1vmax;
+    margin-left: 10vmax;
+}
+
+.last-nav2 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    font: 100 1.1vmax "montserrat";
+}
+.l-img4{
+    width: 15%;height: 6%;
+}
+.l-11{
+    width: 10%;height: 250%;
+    flex-direction: row;
+    margin-left: 0.5vmax;
+
+}
+.last-nn{
+    width: 98%; height: 15vh;
+    display: flex;position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+.pp{
+    color: rgb(155, 152, 152);
+    font: 300 0.9vmax "montserrat";
+}
